@@ -1,0 +1,91 @@
+body{
+  background-image: url("../img/greyImg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+}
+
+.parallax{
+  background-image: url("../img/bgImg2.jpg");
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*nav bar*/
+#navBar{
+  background-color: #333333;
+	opacity: 0.8;
+	overflow: left;
+	position: fixed;
+  top: 0px;
+	width: 100%;
+
+}
+
+#navBar a{
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  display: block;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+#navBar a:hover{
+  color: #e6b800;
+  opacity: 0.9;
+}
+
+.body-h1{
+  text-align: center;
+  font-size: 90px;
+  color: #ffcc00;
+  font-weight: bold;
+  padding-top: 150px;
+  text-shadow: 5px 2px 3px #333333;
+
+}
+
+.d1-title{
+  margin-left: 600px;
+  font-size: 45px;
+  color: #e6b800 ;
+  font-family: sans-serif;
+}
+
+.d1{
+  text-align: left;
+  font-size: 35px;
+  color: #e6b800 ;
+  font-family: sans-serif;
+}
+
+.bulletPointSpace{
+  margin-left: 45px;
+}
+
+.d1ul{
+  margin-bottom: 500px;
+}
+
+.div2-btngrp1{
+  margin-left: 700px;
+}
+
+.btngrp1{
+  font-size: 20px;
+  height: 90px;
+  width: 150px;
+  margin-left: 40px;
+}
+
+#btnShow:hover, #btnHide:hover {
+  color: blue;
+  height: 100px;
+  width: 170px;
+}
