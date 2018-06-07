@@ -1,15 +1,15 @@
+
 var visiable = true;
 $(function(){
-    $('#btnShow').click(function(){
-        if( visiable == false ){
-          $('.d1').hide();
-          $('.d1-title').html("Click To Show Text");
-          visiable = true;
-        }else{
-          $('.d1').show();
-          $('.d1-title').html("Click To Show Text");
-          visiable = false;
-        }
-        console.log(visiable);
-    });
+  $('#btn').click(function(){
+    if(visiable == false){
+      $('#contents').hide();
+      $('.btn').html("Click To Show");
+      visiable = true;
+    }else{
+      $('#contents').show();
+      $('btn').html("Click To Hide");
+      visiable = false;
+    }
+  });
 });

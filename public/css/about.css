@@ -1,91 +1,67 @@
-body{
-  background-image: url("../img/greyImg.jpg");
-  background-attachment: fixed;
+.box{
+  background-image: url('../img/greyImg.jpg');
   background-repeat: no-repeat;
+  background-position: bottom;
   background-size: cover;
-  background-size: 100%;
+  color: white;
+
 }
 
-.parallax{
-  background-image: url("../img/bgImg2.jpg");
-  min-height: 700px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*nav bar*/
 #navBar{
+  position: fixed;
+  width: 100%;
+  height: 5%;
   background-color: #333333;
-	opacity: 0.8;
-	overflow: left;
-	position: fixed;
-  top: 0px;
-	width: 100%;
-
+  text-align: center;
+  top: 0;
+  left: 0;
 }
 
 #navBar a{
   color: white;
-  font-size: 38px;
-  font-weight: bold;
-  display: block;
-  float: left;
-  text-align: center;
+  font-size: 35px;
   text-decoration: none;
-  margin-left: 35px;
+  margin: auto 3% 3% auto;
 }
 
 #navBar a:hover{
-  color: #e6b800;
-  opacity: 0.9;
+  color: lightblue;
 }
 
-.body-h1{
+.box__parallax{
+  background-image: url('../Img/Img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
   text-align: center;
-  font-size: 90px;
-  color: #ffcc00;
-  font-weight: bold;
-  padding-top: 150px;
-  text-shadow: 5px 2px 3px #333333;
-
 }
 
-.d1-title{
-  margin-left: 600px;
+.box__parallax__header{
+  text-align: center;
+  padding: 10%;;
+  font-size: 50px;
+}
+.box__header{
+  text-align: center;
   font-size: 45px;
-  color: #e6b800 ;
-  font-family: sans-serif;
+  margin: 5% auto
 }
 
-.d1{
-  text-align: left;
+.box__btn{
+  text-align: center;
+}
+
+.btn{
+  width: 15%;
+  font-size: 30px;
+}
+
+.box__contents{
   font-size: 35px;
-  color: #e6b800 ;
-  font-family: sans-serif;
+  margin: 5% auto auto 8%;
 }
 
-.bulletPointSpace{
-  margin-left: 45px;
-}
-
-.d1ul{
-  margin-bottom: 500px;
-}
-
-.div2-btngrp1{
-  margin-left: 700px;
-}
-
-.btngrp1{
-  font-size: 20px;
-  height: 90px;
-  width: 150px;
-  margin-left: 40px;
-}
-
-#btnShow:hover, #btnHide:hover {
-  color: blue;
-  height: 100px;
-  width: 170px;
+.box__contents__li{
+  margin-left: 2%;
 }

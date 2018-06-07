@@ -1,0 +1,68 @@
+/******************** GENERAL ********************/
+.box{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+#body{
+  position: relative;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', helvetica;
+}
+
+
+/******************** HEADER ********************/
+
+#header{
+  background: red url('../img/bgImg.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+#header__content{
+  text-align: center;
+}
+
+#header__img{
+  height: 200px;
+  max-width: 200px;
+  background: blue url('http://via.placeholder.com/200x200') no-repeat center center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+
+/******************** MAIN ********************/
+#main{
+  flex: 1 0 auto;
+}
+
+#main__content{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/******************** FOOTER ********************/
+
+#footer{
+  text-align: center;
+  background-color: grey;
+  position: relative;
+  color: white;
+}
+
+#footer a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+#footer a:hover{
+  color: red;
+}
