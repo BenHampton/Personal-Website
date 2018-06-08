@@ -13,6 +13,7 @@ app.get("/about", (req, res) => {
 app.get("/home", (req, res) => {
   res.sendFile(path.join(__dirname, "/view/template.html"));
 });
+
 app.use(express.static('public'));
 
 app.listen(3000, () => {
