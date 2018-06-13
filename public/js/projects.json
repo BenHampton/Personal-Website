@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "uuid": 1,
+      "title": "Account Sim",
+      "backgroundImage": "./img/accountSim/acctSim-1.png",
+      "urlPath": "acctSim",
+      "descripttion": "Account Banking account Simulation",
+      "pageImages": [
+        "/img/accountSim/acctSim-1.png",
+        "/img/accountSim/acctSim-2.png",
+        "/img/accountSim/acctSim-3.png",
+        "/img/accountSim/acctSim-4.png",
+        "/img/accountSim/acctSim-5.png"
+      ]
+    },
+    {
+      "uuid": 2,
+      "title": "P2X",
+      "backgroundImage": "./img/P2X/P2X-1.png",
+      "urlPath": "p2x",
+      "descripttion": "Combined an PS2 and a Xboc 360 into one single computer tower running off a single power supply",
+      "pageImages": [
+        "/img/P2X/P2X-1.png",
+        "/img/P2X/P2X-2.png",
+        "/img/P2X/P2X-3.png",
+        "/img/P2X/P2X-4.png",
+        "/img/P2X/P2X-5.jpg"
+      ]
+    },
+    {
+      "uuid": 3,
+      "title": "Number Converter",
+      "backgroundImage": "./img//numConv/numConv-1.png",
+      "urlPath": "numConv",
+      "descripttion": "--",
+      "pageImages": [
+        "/img/numConv/numConv-1.png",
+        "/img/numConv/numConv-2.png",
+        "/img/numConv/numConv-3.png",
+        "/img/numConv/numConv-4.png"
+      ]
+    },
+    {
+      "uuid": 4,
+      "title": "Restaurant Website",
+      "backgroundImage": "./img/restaurantWebiste/website-1.png",
+      "urlPath": "restaurantWebsite",
+      "descripttion": "Class Projects - rebuilt/renamed a restaurant website",
+      "pageImages": [
+        "/img/restaurantWebiste/website-1.png",
+        "/img/restaurantWebiste/website-2.png",
+        "/img/restaurantWebiste/website-3.png",
+        "/img/restaurantWebiste/website-4.png"
+      ]
+    },
+    {
+      "uuid": 5,
+      "title": "AccountDB",
+      "backgroundImage": "./img/acctDB/acctDB-1.png",
+      "urlPath": "acctDB",
+      "descripttion": "--",
+      "pageImages": [
+        "/img/acctDB/acctDB-1.png",
+        "/img/acctDB/acctDB-2.png"
+      ]
+    }
+  ]
+}

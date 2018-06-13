@@ -13,3 +13,10 @@ $(function(){
     }
   });
 });
+
+$(function(){
+  console.log("TEST")
+  $("#navBar__Project").click(function(){
+    alert("COmming Soon";)
+  });
+});

@@ -2,16 +2,17 @@ const path = require("path");
 const express = require("express");
 const app = express();
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, "/view/index.html"));
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "/view/home.html"));
 });
 
 app.get("/about", (req, res) => {
   res.sendFile(path.join(__dirname, "/view/about.html"));
 });
 
-app.get("/home", (req, res) => {
-  res.sendFile(path.join(__dirname, "/view/template.html"));
+app.get("/project/:projectId", (req, res) => {
+  res.sendFile(path.join(__dirname, "/view/project.html"));
+  //res.send(`${req.params.projectId}`);
 });
 
 app.use(express.static('public'));

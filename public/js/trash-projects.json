@@ -1,0 +1,202 @@
+{
+  "projects": [
+    {
+      "uuid": 1,
+      "title": "Account Sim",
+      "backgroundImage": "./img/accountSim/acctSim-1.png",
+      "urlPath": "/acctSim",
+      "descripttion": "Account Banking account Simulation"
+    },
+    {
+      "uuid": 2,
+      "title": "P2X",
+      "backgroundImage": "./img/P2X/P2X-1.png",
+      "urlPath": "/p2x",
+      "descripttion": "Combined an PS2 and a Xboc 360 into one single computer tower running off a single power supply"
+    },
+    {
+      "uuid": 3,
+      "title": "Number Converter",
+      "backgroundImage": "./img//numConv/numConv-1.png",
+      "urlPath": "/numConv",
+      "descripttion": "--"
+    },
+    {
+      "uuid": 4,
+      "title": "Restaurant Website",
+      "backgroundImage": "./img/restaurantWebiste/website-1.png",
+      "urlPath": "/restaurantWebsite",
+      "descripttion": "Class Projects - rebuilt/renamed a restaurant website"
+    },
+    {
+      "uuid": 5,
+      "title": "AccountDB",
+      "backgroundImage": "./img/acctDB/acctDB-1.png",
+      "urlPath": "/acctDB",
+      "descripttion": "--"
+    },
+    {
+      "uuid": 6,
+      "title": "Ben's Project6",
+      "backgroundImage": "http://via.placeholder.com/300x300",
+      "urlPath": "/#",
+      "descripttion": "--"
+    }
+  ],
+
+  "projectAcctSim": [
+    {
+      "uuid": 1,
+      "title": "title1",
+      "backgroundImage": "./img/accountSim/acctSim-1.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 2,
+      "title": "title1",
+      "backgroundImage": "./img/accountSim/acctSim-2.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 3,
+      "title": "title2",
+      "backgroundImage": "./img/accountSim/acctSim-3.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 4,
+      "title": "title3",
+      "backgroundImage": "./img/accountSim/acctSim-4.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 5,
+      "title": "title4",
+      "backgroundImage": "./img/accountSim/acctSim-5.png",
+      "description": "descriptionHERE"
+    }
+  ],
+
+  "projectP2X": [
+    {
+      "uuid": 1,
+      "title": "title1",
+      "backgroundImage": "./img/P2X/P2X-1.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 2,
+      "title": "title1",
+      "backgroundImage": "./img/P2X/P2X-2.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 3,
+      "title": "title2",
+      "backgroundImage": "./img/P2X/P2X-3.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 4,
+      "title": "title3",
+      "backgroundImage": "./img/P2X/P2X-4.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 5,
+      "title": "title4",
+      "backgroundImage": "./img/P2X/P2X-5.jpg",
+      "description": "descriptionHERE"
+    }
+  ],
+
+  "projectNumConv": [
+    {
+      "uuid": 1,
+      "title": "title1",
+      "backgroundImage": "./img//numConv/numConv-1.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 2,
+      "title": "title1",
+      "backgroundImage": "./img//numConv/numConv-2.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 4,
+      "title": "title2",
+      "backgroundImage": "./img//numConv/numConv-3.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 5,
+      "title": "title3",
+      "backgroundImage": "./img//numConv/numConv-4.png",
+      "description": "descriptionHERE"
+    }
+  ],
+
+  "projectRestaurantWebsite": [
+    {
+      "uuid": 1,
+      "title": "title1",
+      "backgroundImage": "./img/restaurantWebiste/website-1.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 2,
+      "title": "title1",
+      "backgroundImage": "./img/restaurantWebiste/website-2.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 3,
+      "title": "title2",
+      "backgroundImage": "./img/restaurantWebiste/website-3.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 4,
+      "title": "title3",
+      "backgroundImage": "./img/restaurantWebiste/website-4.png",
+      "description": "descriptionHERE"
+    }
+  ],
+
+  "projectAcctDB": [
+    {
+      "uuid": 1,
+      "title": "title1",
+      "backgroundImage": "./img/acctDB/acctDB-1.png",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 2,
+      "title": "title2",
+      "backgroundImage": "./img/acctDB/acctDB-1.png",
+      "description": "descriptionHERE"
+    }
+  ],
+
+  "navBar": [
+    {
+      "uuid": 1,
+      "title": "Home",
+      "urlPath": "/",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 2,
+      "title": "About",
+      "urlPath": "/about",
+      "description": "descriptionHERE"
+    },
+    {
+      "uuid": 3,
+      "title": "Project",
+      "urlPath": "/#projects",
+      "description": "descriptionHERE"
+    }
+  ]
+}

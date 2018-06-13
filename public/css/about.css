@@ -1,67 +1,45 @@
-.box{
-  background-image: url('../img/greyImg.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom;
+/******************** GENERAL ********************/
+
+/******************** HEADER ********************/
+
+/******************** MAIN ********************/
+#main{
+  background: white url('../img/greyImg.jpg') no-repeat center center;
   background-size: cover;
+}
+
+#content {
+  margin: 20px auto;
+  width: 90%;
+  font-size: 14px;
+  text-indent: 3%;
   color: white;
+}
+
+.content__text {
+  float: left;
+  margin-bottom: 100px;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+
+  #content {
+    margin: 0 auto;
+    max-width: 90%;
+    font-size: 18px;
+  }
 
 }
 
-#navBar{
-  position: fixed;
-  width: 100%;
-  height: 5%;
-  background-color: #333333;
-  text-align: center;
-  top: 0;
-  left: 0;
+@media screen and (min-width: 992px) {
+
+  #content {
+    font-size: 20px;
+  }
+
 }
 
-#navBar a{
-  color: white;
-  font-size: 35px;
-  text-decoration: none;
-  margin: auto 3% 3% auto;
-}
 
-#navBar a:hover{
-  color: lightblue;
-}
 
-.box__parallax{
-  background-image: url('../Img/Img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 500px;
-  text-align: center;
-}
-
-.box__parallax__header{
-  text-align: center;
-  padding: 10%;;
-  font-size: 50px;
-}
-.box__header{
-  text-align: center;
-  font-size: 45px;
-  margin: 5% auto
-}
-
-.box__btn{
-  text-align: center;
-}
-
-.btn{
-  width: 15%;
-  font-size: 30px;
-}
-
-.box__contents{
-  font-size: 35px;
-  margin: 5% auto auto 8%;
-}
-
-.box__contents__li{
-  margin-left: 2%;
-}
+/******************** FOOTER ********************/
