@@ -57,13 +57,31 @@
 </head>
 <body id="body" class="box">
 
-  <nav id="navBar">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/#projects">Projects</a>
-  </nav>
-
   <header id="header" class="box">
+
+    <nav id="navBar">
+
+      <div id="nav__mobile-options" class="box">
+        <a href="/" onclick="toggleMobileNav()">Home</a>
+        <a href="/about" onclick="toggleMobileNav()">About</a>
+        <a href="/#projects" onclick="toggleMobileNav()">Projects</a>
+        <br />
+        <h4 class="closeNav" onclick="toggleMobileNav()">close</h4>
+      </div>
+
+      <div id="nav__mobile" class="box">
+        <h4 id="navSlider" onclick="toggleMobileNav()" class="box">Open</h4>
+      </div>
+
+      <div id="nav__desktop" class="box">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/#projects">Projects</a>
+      </div>
+
+    </nav>
+
+
     <div class="box" id="header__content">
       <h1>A Few Quick Points About Myself</h1>
     </div>
@@ -116,6 +134,6 @@
     </a>
   </footer>
 
-
+<script src="/js/home.js" type="text/javascript"></script>
 </body>
 </html>

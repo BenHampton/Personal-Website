@@ -55,13 +55,30 @@
 <link rel="stylesheet" href="/css/main.css">
 </head>
 <body id="body" class="box">
-  <nav id="navBar">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/#projects">Projects</a>
-  </nav>
 
   <header id="header" class="box">
+
+    <nav id="navBar">
+
+      <div id="nav__mobile-options" class="box">
+        <h4 id="closeSlider" class="box" onclick="toggleMobileNav()">close</h4>
+        <a href="/" onclick="toggleMobileNav()">Home</a>
+        <a href="/about" onclick="toggleMobileNav()">About</a>
+        <a href="/#projects" onclick="toggleMobileNav()">Projects</a>
+      </div>
+
+      <div id="nav__mobile" class="box">
+        <h4 id="navSlider" onclick="toggleMobileNav()" class="box">Open</h4>
+      </div>
+
+      <div id="nav__desktop" class="box">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/#projects">Projects</a>
+      </div>
+
+    </nav>
+
     <div class="box" id="header__content">
       <h1>BEN HAMPTON</h1>
       <div class="box" id="header__img"></div>
@@ -77,7 +94,6 @@
           <!-- <div class="box project">
             <a href="/home#">
               <div class="box project__img" style="background-image:url('http://via.placeholder.com/300x300') ">
-                <h5>1</h5>
               </div>
             </a>
           </div> -->
@@ -88,12 +104,13 @@
 
 
   <footer id="footer" class="box">
+
     <h2>Website Designed by: Ben Hampton</h2>
-    <a href="mailto:benhampton11@yahoo.com">
-      <h4>Email Me</h4>
-    </a>
+      <a href="mailto:benhampton11@yahoo.com"><h4>Email Me</h4></a>
+      <a href="https://github.com/BenHampton"><h4>Git Hub</h4></a>
   </footer>
 
 <script src="/js/home.js" type="text/javascript"/></script>
+
 </body>
 </html>

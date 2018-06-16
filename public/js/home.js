@@ -5,7 +5,6 @@ window.onload = function() {
 console.log("in");
 project = getProjectJSON("/js/projects.json");
 console.log("out");
-
 }
 
 function getProjectJSON(path){
@@ -31,7 +30,6 @@ function getProjectJSON(path){
 
 }//end of getProjectJSON
 
-
 function handleProjectJSON(){
 
   var projectsElem = document.getElementById("projects");
@@ -51,3 +49,31 @@ function handleProjectJSON(){
   }
   projectsElem.innerHTML = projectsString;
 }
+
+function toggleMobileNav() {
+  document.getElementById('nav__mobile-options').classList.toggle('mobile-options--open');
+}
+
+
+// function openNav() {
+//   document.getElementById('nav__mobile-options').classList.toggle('mobile-options--open');
+// }
+//
+// function closeNav() {
+//   document.getElementById('nav__mobile-options').classList.toggle('mobile-options--open');
+// }
+
+
+// function openNav() {
+//   var open = document.getElementById("navBar");
+//   var opened = open.style.width = "200px";
+//   var openStyle = document.getElementById("navSlider");
+//   openStyle.style.visibility = "hidden";
+// }
+//
+// function closeNav(){
+//   var close = document.getElementById("navBar");
+//   close.style.width = "0px";
+//   var closeStyle = document.getElementById("navSlider");
+//   closeStyle.style.visibility = "visible";
+// }

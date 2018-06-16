@@ -78,7 +78,7 @@ function getProject() {
     var projectElem = document.getElementById("header__content");
     projectElem.innerHTML = innerHTMLString;
 
-    var projectImg = document.getElementById("project");
+    var projectImg = document.getElementById("projects");
     projectImg.innerHTML = projectElemImgString;
   }
 }

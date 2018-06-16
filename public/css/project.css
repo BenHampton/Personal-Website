@@ -1,0 +1,57 @@
+/******************** GENERAL ********************/
+
+/******************** HEADER ********************/
+
+/******************** MAIN ********************/
+
+
+#projects{
+  text-align: center;
+  margin: 20px auto;
+  width: 90%;
+}
+
+
+.project__img{
+  background: grey no-repeat center center;
+  background-size: cover;
+  display: flex;
+  height: 90vw;
+  margin-bottom: 100px;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  #projects {
+      max-width: 600px;
+  }
+
+  .project {
+    float: left;
+    width: 50%;
+  }
+
+  .project__img {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  #projects {
+    max-width: 900px;
+  }
+  .project{
+    width: 50%;
+  }
+
+  .project__img {
+    max-width: 700px;
+    max-height: 400px;
+  }
+
+}
+/******************** FOOTER ********************/
