@@ -1,0 +1,32 @@
+/******************** GENERAL ********************/
+.box {
+  border-style: border-box;
+  margin: 0 auto;
+  overflow-y: hidden;
+  width: 100%;
+}
+
+#body {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+/******************** HEADER ********************/
+#header {
+  width: 100%;
+  background: red;
+}
+/******************** MAIN ********************/
+#main {
+  flex: 1 0 auto;
+}
+/******************** FOOTER ********************/
+#footer {
+  background: green;
+  text-align: center;
+  position: relative;
+  color: white;
+}
